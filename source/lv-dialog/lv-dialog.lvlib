@@ -15,9 +15,6 @@
 		<Item Name="generate_error.vi" Type="VI" URL="../_subvis/generate_error.vi"/>
 	</Item>
 	<Item Name="api" Type="Folder">
-		<Item Name="v1" Type="Folder">
-			<Item Name="v1.lvclass" Type="LVClass" URL="../api/v1/v1.lvclass"/>
-			<Item Name="v1.lvlib" Type="Library" URL="../api/v1/v1.lvlib"/>
-		</Item>
+		<Item Name="v1.lvlib" Type="Library" URL="../api/v1/v1.lvlib"/>
 	</Item>
 </Library>

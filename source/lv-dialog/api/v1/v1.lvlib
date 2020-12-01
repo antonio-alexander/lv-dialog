@@ -7,6 +7,7 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="examples" Type="Folder">
+		<Item Name="example_00_load_class.vi" Type="VI" URL="../examples/example_00_load_class.vi"/>
 		<Item Name="example_01_one_button.vi" Type="VI" URL="../examples/example_01_one_button.vi"/>
 	</Item>
 	<Item Name="private" Type="Folder">
@@ -20,14 +21,17 @@
 	</Item>
 	<Item Name="public" Type="Folder">
 		<Item Name="_controls" Type="Folder">
-			<Item Name="configuration.ctl" Type="VI" URL="../public/_controls/configuration.ctl"/>
 			<Item Name="dialog_selection.ctl" Type="VI" URL="../public/_controls/dialog_selection.ctl"/>
 		</Item>
-		<Item Name="_globals" Type="Folder"/>
 		<Item Name="_subvis" Type="Folder">
-			<Item Name="helper_one_button.vi" Type="VI" URL="../public/helper/helper_one_button.vi"/>
+			<Item Name="advanced" Type="Folder">
+				<Item Name="load_class-class.vi" Type="VI" URL="../public/_subvis/advanced/load_class-class.vi"/>
+				<Item Name="load_class-file.vi" Type="VI" URL="../public/_subvis/advanced/load_class-file.vi"/>
+			</Item>
 			<Item Name="load_class.vi" Type="VI" URL="../public/_subvis/load_class.vi"/>
+			<Item Name="read_class.vi" Type="VI" URL="../public/_subvis/read_class.vi"/>
 		</Item>
 		<Item Name="cube_drop.vi" Type="VI" URL="../public/cube_drop.vi"/>
+		<Item Name="v1.lvclass" Type="LVClass" URL="../public/class/v1.lvclass"/>
 	</Item>
 </Library>
