@@ -10,8 +10,16 @@
 	<Item Name="_controls" Type="Folder">
 		<Item Name="error.ctl" Type="VI" URL="../_controls/error.ctl"/>
 	</Item>
-	<Item Name="_globals" Type="Folder"/>
 	<Item Name="_subvis" Type="Folder">
+		<Item Name="advanced" Type="Folder">
+			<Item Name="feedback-negative.vi" Type="VI" URL="../_subvis/advanced/feedback-negative.vi"/>
+			<Item Name="feedback-positive.vi" Type="VI" URL="../_subvis/advanced/feedback-positive.vi"/>
+			<Item Name="feedback-positive_negative.vi" Type="VI" URL="../_subvis/advanced/feedback-positive_negative.vi"/>
+		</Item>
+		<Item Name="error_handler.vi" Type="VI" URL="../_subvis/error_handler.vi"/>
+		<Item Name="feedback.vi" Type="VI" URL="../_subvis/feedback.vi"/>
+		<Item Name="file.vi" Type="VI" URL="../_subvis/file.vi"/>
+		<Item Name="folder.vi" Type="VI" URL="../_subvis/folder.vi"/>
 		<Item Name="generate_error.vi" Type="VI" URL="../_subvis/generate_error.vi"/>
 	</Item>
 	<Item Name="api" Type="Folder">
