@@ -46,12 +46,11 @@
 		<Item Name="MGI Picture &amp; Image" Type="Folder">
 			<Item Name="MGI Coerce Rect into Bounds.vi" Type="VI" URL="../dependencies/MGI Picture &amp; Image/MGI Coerce Rect into Bounds.vi"/>
 		</Item>
-		<Item Name="dependencies.md" Type="Document" URL="../dependencies/dependencies.md"/>
 	</Item>
 	<Item Name="public" Type="Folder">
 		<Item Name="api" Type="Folder">
+			<Item Name="cube_drop.vi" Type="VI" URL="../public/api/v1/cube_drop.vi"/>
 			<Item Name="v1.lvclass" Type="LVClass" URL="../public/api/v1/v1.lvclass"/>
-			<Item Name="v1_cube_drop.vi" Type="VI" URL="../public/api/v1/v1_cube_drop.vi"/>
 		</Item>
 		<Item Name="interfaces" Type="Folder">
 			<Item Name="busy_wait.vi" Type="VI" URL="../public/interfaces/busy_wait.vi"/>
@@ -64,6 +63,10 @@
 			<Item Name="one_button.vi" Type="VI" URL="../public/interfaces/one_button.vi"/>
 			<Item Name="three_button.vi" Type="VI" URL="../public/interfaces/three_button.vi"/>
 			<Item Name="two_button.vi" Type="VI" URL="../public/interfaces/two_button.vi"/>
+		</Item>
+		<Item Name="examples" Type="Folder">
+			<Item Name="example_01_load_api.vi" Type="VI" URL="../public/examples/example_01_load_api.vi"/>
+			<Item Name="example_02_unload_api.vi" Type="VI" URL="../public/examples/example_02_unload_api.vi"/>
 		</Item>
 	</Item>
 	<Item Name="private" Type="Folder">

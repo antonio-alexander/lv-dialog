@@ -25,4 +25,9 @@
 	<Item Name="api" Type="Folder">
 		<Item Name="v1.lvlib" Type="Library" URL="../api/v1/v1.lvlib"/>
 	</Item>
+	<Item Name="examples" Type="Folder">
+		<Item Name="example_01_feedback.vi" Type="VI" URL="../examples/example_01_feedback.vi"/>
+		<Item Name="example_02_file.vi" Type="VI" URL="../examples/example_02_file.vi"/>
+		<Item Name="example_03_folder.vi" Type="VI" URL="../examples/example_03_folder.vi"/>
+	</Item>
 </Library>

@@ -15,3 +15,7 @@
 *.aliases
 *.lvlps
 .cache/
+
+# Distribution/Build Artifacts
+/distribution/working/*
+/distribution/vipm/*.vip
