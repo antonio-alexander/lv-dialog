@@ -16,6 +16,7 @@
 *.lvlps
 .cache/
 
-# Distribution/Build Artifacts
+# Distribution, Build Artifacts
 /distribution/working/*
 /distribution/vipm/*.vip
+/distribution/archive/*.vip
