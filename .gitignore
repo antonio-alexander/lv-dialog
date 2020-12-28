@@ -17,6 +17,7 @@
 .cache/
 
 # Distribution, Build Artifacts
-/distribution/working/*
-/distribution/vipm/*.vip
-/distribution/archive/*.vip
+distribution/working/*
+distribution/working/*.zip
+distribution/vipm/*.vip
+distribution/archive/*.vip

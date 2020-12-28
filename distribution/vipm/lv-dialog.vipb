@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2020-11-29 15:36:26" Modified_Date="2020-12-06 22:38:56" Creator="noobius" Comments="" ID="21068e314de2eb9e280f7ec28816818a">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2020-11-29 15:36:26" Modified_Date="2020-12-28 13:43:28" Creator="noobius" Comments="" ID="0f628432a26edd0a9b2b3f48b134e585">
   <Library_General_Settings>
     <Package_File_Name>antonio_alexander_lib_lv_dialog</Package_File_Name>
-    <Library_Version>1.0.0.3</Library_Version>
+    <Library_Version>1.1.0.2</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\working\lv-dialog</Library_Source_Folder>
     <Library_Output_Folder>.</Library_Output_Folder>
@@ -32,7 +32,9 @@
       <Copyright/>
       <Packager>Antonio Alexander</Packager>
       <URL>https://github.com/antonio-alexander/lv-dialog</URL>
-      <Release_Notes/>
+      <Release_Notes>Introduced two (see below) breaking changes, it's not really worth creating a new API (my apologies if this actually affects you)
+(1) Updated the busy_wait event to be more extensible, this is semi-forward compatible, but instead of having a baked in event registration for a boolean "done", it's a variant that can be casted into a known event registration reference that can contain anything the caller wants to implement.
+(2) Added additional VIs to the feedback to simplify its api and not provide "process" error as a separate input</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -297,7 +299,7 @@
         <Path>..\working\lv-dialog\examples</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>88C039A0FE5747D6FE1BE62F15C4EF3E</GUID>
+      <GUID>CAD96D4E1C48A7E4698F9402FCD11258</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -360,7 +362,7 @@
         <Path>..\working\lv-dialog\_subvis\advanced\feedback-positive_negative.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D4D8BF8D9ABBAAFA03BFB346BC896D06</GUID>
+      <GUID>E9002C9728EC7A63ADD98F8E568B710E</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -549,7 +551,7 @@
         <Path>..\working\lv-dialog\api\v1\public\cube_drop.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>8B47FB9713F95DC019BDF324D0687A31</GUID>
+      <GUID>1BC29384DB082B572432360BAA1BD3D6</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -710,7 +712,7 @@
         <Path>..\working\lv-dialog\api\v1\examples\example_06_data_entry_numeric.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>6A0D548AAA7E135E5D85205EEB1472DF</GUID>
+      <GUID>9617B978DD2C9DDD436008EFF073CF60</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -773,7 +775,7 @@
         <Path>..\working\lv-dialog\examples\example_03_folder.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F7C4F3E9EC08C61BBA9292680BCD06B8</GUID>
+      <GUID>E8FB442A1A2583AD21C95D6B24300D30</GUID>
     </Functions_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>-1</Parent_Palette_Index>
@@ -808,7 +810,7 @@
         <Path>..\working\lv-dialog\_controls\error.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>3D4EF3CEDD5E1D0086FEAE2BE21DC9BB</GUID>
+      <GUID>1D1D591A3462D6A2CB885F4722141507</GUID>
     </Controls_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
