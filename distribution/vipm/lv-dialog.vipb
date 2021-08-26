@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2020-11-29 15:36:26" Modified_Date="2021-07-31 09:43:37" Creator="noobius" Comments="" ID="737c6c9fb2cf6d6b3bad484f62cd7153">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2020-11-29 15:36:26" Modified_Date="2021-08-26 00:38:14" Creator="noobius" Comments="" ID="0596d28399a4f9a1fffd4439c975df85">
   <Library_General_Settings>
     <Package_File_Name>antonio_alexander_lib_lv_dialog</Package_File_Name>
-    <Library_Version>1.1.0.7</Library_Version>
+    <Library_Version>1.1.0.8</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\working\lv-dialog</Library_Source_Folder>
     <Library_Output_Folder>.</Library_Output_Folder>
@@ -299,7 +299,7 @@
         <Path>..\working\lv-dialog\examples</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>65B5B1F1603891935C1C30C6FC9950C4</GUID>
+      <GUID>2DE56E63875CA3F404F75288A64363EB</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -362,7 +362,7 @@
         <Path>..\working\lv-dialog\_subvis\advanced\feedback-positive_negative.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>7CA83C16DF34657E4EBC361A68A9DFDD</GUID>
+      <GUID>07C2DD11F34541275330A0F24788C6D5</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -551,7 +551,7 @@
         <Path>..\working\lv-dialog\api\v1\public\cube_drop.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>07F068EB78E95F2EEAFC16DD5F58AF2B</GUID>
+      <GUID>B32429695734D37487DE9E3C478B97B3</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -712,7 +712,7 @@
         <Path>..\working\lv-dialog\api\v1\examples\example_06_data_entry_numeric.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>945E903974E7B6BA4696A1BA8D98C749</GUID>
+      <GUID>6FA21D5FC5D9235ECA218ABCBAF8CDFF</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -775,7 +775,7 @@
         <Path>..\working\lv-dialog\examples\example_03_folder.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>8A099452B44B7B5C0546FBF28D1551E8</GUID>
+      <GUID>2A3DF2406EF3BC64012AA30B159717C8</GUID>
     </Functions_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>-1</Parent_Palette_Index>
@@ -810,7 +810,7 @@
         <Path>..\working\lv-dialog\_controls\error.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C2465FF2BB1D75BEE0811ED710910BF4</GUID>
+      <GUID>5C708839B47980189B2C0DE045A755A6</GUID>
     </Controls_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>

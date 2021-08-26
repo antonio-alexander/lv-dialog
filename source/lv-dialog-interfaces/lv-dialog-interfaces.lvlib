@@ -46,6 +46,7 @@
 			<Item Name="MGI Coerce Rect into Bounds.vi" Type="VI" URL="../dependencies/MGI Picture &amp; Image/MGI Coerce Rect into Bounds.vi"/>
 		</Item>
 	</Item>
+	<Item Name="examples" Type="Folder"/>
 	<Item Name="private" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		<Item Name="_controls" Type="Folder">
